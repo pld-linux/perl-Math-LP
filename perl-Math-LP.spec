@@ -17,7 +17,7 @@ BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Math-LP-Solve >= 3.02
 BuildRequires:	perl-Math-LinearCombination
 BuildRequires:	perl-Math-SimpleVariable
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 Requires:	perl-Math-LP-Solve >= 3.02
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
