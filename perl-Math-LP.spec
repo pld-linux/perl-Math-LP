@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	LP
+%define		pdir	Math
+%define		pnam	LP
 Summary:	Math::LP
 Summary(pl):	Math::LP
 Name:		perl-Math-LP
