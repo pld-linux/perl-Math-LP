@@ -10,7 +10,8 @@ Summary(pl):	Math::LP
 Name:		perl-Math-LP
 Version:	0.03
 Release:	2
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	7807506af8171b95c8d7f536bc341507
