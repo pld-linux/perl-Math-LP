@@ -13,6 +13,7 @@ Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	7807506af8171b95c8d7f536bc341507
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Math-LP-Solve >= 3.02
 BuildRequires:	perl-Math-LinearCombination
