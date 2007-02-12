@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	LP
 Summary:	Math::LP
-Summary(pl):	Math::LP
+Summary(pl.UTF-8):   Math::LP
 Name:		perl-Math-LP
 Version:	0.03
 Release:	2
@@ -26,7 +26,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 
-%description -l pl
+%description -l pl.UTF-8
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
