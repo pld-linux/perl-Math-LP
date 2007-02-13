@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	LP
 Summary:	Math::LP
-Summary(pl.UTF-8):   Math::LP
+Summary(pl.UTF-8):	Math::LP
 Name:		perl-Math-LP
 Version:	0.03
 Release:	2
