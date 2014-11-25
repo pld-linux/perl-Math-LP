@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	LP
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::LP
 Summary(pl.UTF-8):	Math::LP
 Name:		perl-Math-LP
@@ -15,10 +15,11 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	7807506af8171b95c8d7f536bc341507
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Math-LP/
 BuildRequires:	perl-Math-LP-Solve >= 3.02
 BuildRequires:	perl-Math-LinearCombination
 BuildRequires:	perl-Math-SimpleVariable
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-Math-LP-Solve >= 3.02
 BuildArch:	noarch
