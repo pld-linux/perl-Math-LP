@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	LP
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::LP
 Summary(pl.UTF-8):	Math::LP
 Name:		perl-Math-LP
